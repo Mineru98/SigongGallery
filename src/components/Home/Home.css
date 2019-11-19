@@ -1,0 +1,7 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+.home_container {
+	height: 1280px;
+	background-image: url(/img/img_lhu.jpg);
+	background-size: cover;
+}
