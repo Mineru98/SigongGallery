@@ -17,7 +17,6 @@ class Header extends React.Component {
 							MozTransition: 'all .5s ease-in-out',
 							OTransition: 'all .5s ease-in-out',
 							Transition: 'all .5s ease-in-out',
-							opacity: 0.7
 						}}
 					>
 						<Menu inverted stackable id="top">

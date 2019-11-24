@@ -20,13 +20,12 @@ header {
 	opacity: 0.7;
 }
 
-#header {
-	color: white;
-	font-family: "NanumSquare";
-	font-size: 20px;
+#drop {
+	left: 50;
 }
 
 #selector {
+	text-align: left;
 	color: black;
 	font-family: "NanumSquare";
 	font-size: 20px;

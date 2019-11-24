@@ -1,7 +1,20 @@
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
 .home_container {
-	height: 1280px;
-	background-image: url(/img/img_lhu.jpg);
-	background-size: cover;
+	height: 920px;
+}
+
+#box {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.center.vertical {
+  margin: auto;
+	width: 45%;
+}
+
+.image-gallery-slide.center {
+	border:2px solid #CDCDCD;
+	padding: 2px;
 }
