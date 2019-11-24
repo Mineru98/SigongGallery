@@ -28,54 +28,54 @@ const images = [
 		original: '/img/img_2019_spring_6.JPG',
 		thumbnail: '/img/img_2019_spring_6.JPG'
 	},
-	// {
-	// 	original: '/img/img_2019_spring_7.jpg',
-	// 	thumbnail: '/img/img_2019_spring_7.jpg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_8.jpeg',
-	// 	originalClass: 'vertical',
-	// 	thumbnail: '/img/img_2019_spring_8.jpeg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_10.jpg',
-	// 	originalClass: 'vertical',
-	// 	thumbnail: '/img/img_2019_spring_10.jpg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_11.jpg',
-	// 	thumbnail: '/img/img_2019_spring_11.jpg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_12.jpg',
-	// 	thumbnail: '/img/img_2019_spring_12.jpg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_14.jpg',
-	// 	thumbnail: '/img/img_2019_spring_14.jpg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_15.jpg',
-	// 	originalClass: 'vertical',
-	// 	thumbnail: '/img/img_2019_spring_15.jpg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_16.jpg',
-	// 	thumbnail: '/img/img_2019_spring_16.jpg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_17.jpg',
-	// 	thumbnail: '/img/img_2019_spring_17.jpg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_18.jpg',
-	// 	thumbnail: '/img/img_2019_spring_18.jpg'
-	// },
-	// {
-	// 	original: '/img/img_2019_spring_19.jpg',
-	// 	originalClass: 'vertical',
-	// 	thumbnail: '/img/img_2019_spring_19.jpg'
-	// }
+	{
+		original: '/img/img_2019_spring_7.jpg',
+		thumbnail: '/img/img_2019_spring_7.jpg'
+	},
+	{
+		original: '/img/img_2019_spring_8.jpeg',
+		originalClass: 'vertical',
+		thumbnail: '/img/img_2019_spring_8.jpeg'
+	},
+	{
+		original: '/img/img_2019_spring_10.jpg',
+		originalClass: 'vertical',
+		thumbnail: '/img/img_2019_spring_10.jpg'
+	},
+	{
+		original: '/img/img_2019_spring_11.jpg',
+		thumbnail: '/img/img_2019_spring_11.jpg'
+	},
+	{
+		original: '/img/img_2019_spring_12.jpg',
+		thumbnail: '/img/img_2019_spring_12.jpg'
+	},
+	{
+		original: '/img/img_2019_spring_14.jpg',
+		thumbnail: '/img/img_2019_spring_14.jpg'
+	},
+	{
+		original: '/img/img_2019_spring_15.jpg',
+		originalClass: 'vertical',
+		thumbnail: '/img/img_2019_spring_15.jpg'
+	},
+	{
+		original: '/img/img_2019_spring_16.jpg',
+		thumbnail: '/img/img_2019_spring_16.jpg'
+	},
+	{
+		original: '/img/img_2019_spring_17.jpg',
+		thumbnail: '/img/img_2019_spring_17.jpg'
+	},
+	{
+		original: '/img/img_2019_spring_18.jpg',
+		thumbnail: '/img/img_2019_spring_18.jpg'
+	},
+	{
+		original: '/img/img_2019_spring_19.jpg',
+		originalClass: 'vertical',
+		thumbnail: '/img/img_2019_spring_19.jpg'
+	}
 ];
 
 class Home extends React.Component {
