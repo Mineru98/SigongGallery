@@ -14,11 +14,11 @@ class Gallery extends React.Component {
 		super(props);
 		this.state = { width: 0 };
 		this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-		if(props.path.pathname === "/2018/fall") {
+		if(props.path.pathname === "/SigongGallery/2018/fall") {
 			view = (<div></div>);
-		} else if (props.path.pathname === "/2019/spring") {
+		} else if (props.path.pathname === "/SigongGallery/2019/spring") {
 			view = (<div></div>);
-		} else if (props.path.pathname === "/2019/fall") {
+		} else if (props.path.pathname === "/SigongGallery/2019/fall") {
 			view = (<div></div>);
 		}
 	}

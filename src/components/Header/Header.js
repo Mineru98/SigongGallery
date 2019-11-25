@@ -22,32 +22,32 @@ class Header extends React.Component {
 						<Menu inverted stackable id="top">
 							<Container>
 								<Menu.Item header id="header">
-									<Link to="/">시공 갤러리</Link>
+									<Link to="/SigongGallery">시공 갤러리</Link>
 								</Menu.Item>
 
 								<Menu.Item header id="header" position="right">
 									<Dropdown floating labeled text="전시회">
 										<Dropdown.Menu>
-											<Link to="/2018/fall">
+											<Link to="/SigongGallery/2018/fall">
 												<Dropdown.Item id="selector" content="2018 가을 전시회" />
 											</Link>
-											<Link to="/2019/spring">
+											<Link to="/SigongGallery/2019/spring">
 												<Dropdown.Item id="selector" content="2019 봄 전시회" />
 											</Link>
-											<Link to="/2019/fall">
+											<Link to="/SigongGallery/2019/fall">
 												<Dropdown.Item id="selector" content="2019 가을 전시회" />
 											</Link>
 										</Dropdown.Menu>
 									</Dropdown>
 								</Menu.Item>
 								<Menu.Item header id="header">
-									<Link to="/guest">방명록</Link>
+									<Link to="/SigongGallery/guest">방명록</Link>
 								</Menu.Item>
 								<Menu.Item header id="header">
-									<Link to="/goods">Goods(엽서)</Link>
+									<Link to="/SigongGallery/goods">Goods(엽서)</Link>
 								</Menu.Item>
 								<Menu.Item header id="header">
-									<Link to="/member">올해 집부 명단</Link>
+									<Link to="/SigongGallery/member">올해 집부 명단</Link>
 								</Menu.Item>
 							</Container>
 						</Menu>

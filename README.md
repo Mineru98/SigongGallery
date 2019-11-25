@@ -1,6 +1,10 @@
 # SigonGallery
 시공포착 갤러리
 
+```
+git push origin --delete gh-pages
+```
+
 ## ToDoList
 ### Main Desgin
  - [ ] Home

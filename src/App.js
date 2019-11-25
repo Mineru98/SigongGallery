@@ -18,20 +18,20 @@ class App extends React.Component {
 				<Responsive minWidth={769}>
 					<Header />
 					<Switch>
-						<Route exact path="/" component={Home} />
-						<Route path={['/2018/fall', '/2019/spring', '/2019/fall']} component={({ location }) => <Gallery path={location} />} />
-						<Route path="/guest" component={Guest}/>
-						<Route path="/goods" component={Goods}/>	
-						<Route path="/member" component={Member}/>
+						<Route exact path="/SigongGallery" component={Home} />
+						<Route path={['/SigongGallery/2018/fall', '/SigongGallery/2019/spring', '/SigongGallery/2019/fall']} component={({ location }) => <Gallery path={location} />} />
+						<Route path="/SigongGallery/guest" component={Guest}/>
+						<Route path="/SigongGallery/goods" component={Goods}/>	
+						<Route path="/SigongGallery/member" component={Member}/>
 					</Switch>
 				</Responsive>
 				<Responsive minWidth={1} maxWidth={768}>
 					<Switch>
-						<Route exact path="/" component={({ location }) => <MobileHeader path={location} />}/>
-						<Route path={['/2018/fall', '/2019/spring', '/2019/fall']} component={({ location }) => <MobileHeader path={location} />}/>
-						<Route path="/guest" component={({ location }) => <MobileHeader path={location} />}/>
-						<Route path="/goods" component={({ location }) => <MobileHeader path={location} />}/>	
-						<Route path="/member" component={({ location }) => <MobileHeader path={location} />}/>
+						<Route exact path="/SigongGallery" component={({ location }) => <MobileHeader path={location} />}/>
+						<Route path={['/SigongGallery/2018/fall', '/SigongGallery/2019/spring', '/SigongGallery/2019/fall']} component={({ location }) => <MobileHeader path={location} />}/>
+						<Route path="/SigongGallery/guest" component={({ location }) => <MobileHeader path={location} />}/>
+						<Route path="/SigongGallery/goods" component={({ location }) => <MobileHeader path={location} />}/>	
+						<Route path="/SigongGallery/member" component={({ location }) => <MobileHeader path={location} />}/>
 					</Switch>
 				</Responsive>
 			</div>

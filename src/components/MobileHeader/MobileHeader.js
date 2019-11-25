@@ -21,19 +21,19 @@ class MobileHeader extends React.Component {
 		this.handleShowClick = this.handleShowClick.bind(this);
 
 		console.log(props.path.pathname);
-		if (props.path.pathname === '/') {
+		if (props.path.pathname === '/SigongGallery') {
 			view = <Home />;
-		} else if (props.path.pathname === '/2018/fall') {
-			view = <Gallery path="/2018/fall" />;
-		} else if (props.path.pathname === '/2019/spring') {
-			view = <Gallery path="/2019/spring" />;
-		} else if (props.path.pathname === '/2019/fall') {
-			view = <Gallery path="/2019/fall" />;
-		} else if (props.path.pathname === '/goods') {
+		} else if (props.path.pathname === '/SigongGallery/2018/fall') {
+			view = <Gallery path="/SigongGallery/2018/fall" />;
+		} else if (props.path.pathname === '/SigongGallery/2019/spring') {
+			view = <Gallery path="/SigongGallery/2019/spring" />;
+		} else if (props.path.pathname === '/SigongGallery/2019/fall') {
+			view = <Gallery path="/SigongGallery/2019/fall" />;
+		} else if (props.path.pathname === '/SigongGallery/goods') {
 			view = <Goods />;
-		} else if (props.path.pathname === '/guest') {
+		} else if (props.path.pathname === '/SigongGallery/guest') {
 			view = <Guest />;
-		} else if (props.path.pathname === '/member') {
+		} else if (props.path.pathname === '/SigongGallery/member') {
 			view = <Member />;
 		}
 	}
@@ -73,7 +73,7 @@ class MobileHeader extends React.Component {
 									visible={visible}
 									width="thin"
 								>
-									<Link to="/">
+									<Link to="/SigongGallery">
 										<Menu.Item as="p" onClick={this.handleHideClick}>
 											<Icon name="home" />
 											{'시공 갤러리'}
@@ -83,31 +83,31 @@ class MobileHeader extends React.Component {
 										<Icon name="home" />
 										<Dropdown floating inline labeled text="전시회">
 											<Dropdown.Menu id="drop" >
-												<Link to="/2018/fall">
+												<Link to="/SigongGallery/2018/fall">
 													<Dropdown.Item id="selector" content="2018 가을 전시회" />
 												</Link>
-												<Link to="/2019/spring">
+												<Link to="/SigongGallery/2019/spring">
 													<Dropdown.Item id="selector" content="2019 봄 전시회" />
 												</Link>
-												<Link to="/2019/fall">
+												<Link to="/SigongGallery/2019/fall">
 													<Dropdown.Item id="selector" content="2019 가을 전시회" />
 												</Link>
 											</Dropdown.Menu>
 										</Dropdown>
 									</Menu.Item>
-									<Link to="/guest">
+									<Link to="/SigongGallery/guest">
 										<Menu.Item as="p" onClick={this.handleHideClick}>
 											<Icon name="home" />
 											{'방명록'}
 										</Menu.Item>
 									</Link>
-									<Link to="/goods">
+									<Link to="/SigongGallery/goods">
 										<Menu.Item as="p" onClick={this.handleHideClick}>
 											<Icon name="home" />
 											{'Goods엽서'}
 										</Menu.Item>
 									</Link>
-									<Link to="/member">
+									<Link to="/SigongGallery/member">
 										<Menu.Item as="p" onClick={this.handleHideClick}>
 											<Icon name="home" />
 											{'올해 집부 명단'}
