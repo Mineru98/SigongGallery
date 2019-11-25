@@ -21,7 +21,7 @@ class MobileHeader extends React.Component {
 		this.handleShowClick = this.handleShowClick.bind(this);
 
 		console.log(props.path.pathname);
-		if (props.path.pathname === '/SigongGallery') {
+		if (props.path.pathname === '/SigongGallery/') {
 			view = <Home />;
 		} else if (props.path.pathname === '/SigongGallery/2018/fall') {
 			view = <Gallery path="/SigongGallery/2018/fall" />;

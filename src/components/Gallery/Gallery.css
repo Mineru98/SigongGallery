@@ -1,3 +1,18 @@
 .gallery_container {
 	
 }
+
+#box {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.center.vertical {
+  margin: auto;
+	width: 45%;
+}
+
+.image-gallery-slide.center {
+	border:2px solid #CDCDCD;
+	padding: 2px;
+}
