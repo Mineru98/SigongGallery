@@ -5,76 +5,76 @@ import './Home.css';
 
 const images = [
 	{
-		original: '/img/img_2019_spring_1.jpg',
-		thumbnail: '/img/img_2019_spring_1.jpg'
+		original: '/SigongGallery/img/img_2019_spring_1.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_1.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_2.jpg',
-		thumbnail: '/img/img_2019_spring_2.jpg'
+		original: '/SigongGallery/img/img_2019_spring_2.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_2.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_3.jpg',
-		thumbnail: '/img/img_2019_spring_3.jpg'
+		original: '/SigongGallery/img/img_2019_spring_3.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_3.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_4.jpg',
-		thumbnail: '/img/img_2019_spring_4.jpg'
+		original: '/SigongGallery/img/img_2019_spring_4.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_4.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_5.JPG',
-		thumbnail: '/img/img_2019_spring_5.JPG'
+		original: '/SigongGallery/img/img_2019_spring_5.JPG',
+		thumbnail: '/SigongGallery/img/img_2019_spring_5.JPG'
 	},
 	{
-		original: '/img/img_2019_spring_6.JPG',
-		thumbnail: '/img/img_2019_spring_6.JPG'
+		original: '/SigongGallery/img/img_2019_spring_6.JPG',
+		thumbnail: '/SigongGallery/img/img_2019_spring_6.JPG'
 	},
 	{
-		original: '/img/img_2019_spring_7.jpg',
-		thumbnail: '/img/img_2019_spring_7.jpg'
+		original: '/SigongGallery/img/img_2019_spring_7.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_7.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_8.jpeg',
+		original: '/SigongGallery/img/img_2019_spring_8.jpeg',
 		originalClass: 'vertical',
-		thumbnail: '/img/img_2019_spring_8.jpeg'
+		thumbnail: '/SigongGallery/img/img_2019_spring_8.jpeg'
 	},
 	{
-		original: '/img/img_2019_spring_10.jpg',
+		original: '/SigongGallery/img/img_2019_spring_10.jpg',
 		originalClass: 'vertical',
-		thumbnail: '/img/img_2019_spring_10.jpg'
+		thumbnail: '/SigongGallery/img/img_2019_spring_10.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_11.jpg',
-		thumbnail: '/img/img_2019_spring_11.jpg'
+		original: '/SigongGallery/img/img_2019_spring_11.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_11.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_12.jpg',
-		thumbnail: '/img/img_2019_spring_12.jpg'
+		original: '/SigongGallery/img/img_2019_spring_12.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_12.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_14.jpg',
-		thumbnail: '/img/img_2019_spring_14.jpg'
+		original: '/SigongGallery/img/img_2019_spring_14.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_14.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_15.jpg',
+		original: '/SigongGallery/img/img_2019_spring_15.jpg',
 		originalClass: 'vertical',
-		thumbnail: '/img/img_2019_spring_15.jpg'
+		thumbnail: '/SigongGallery/img/img_2019_spring_15.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_16.jpg',
-		thumbnail: '/img/img_2019_spring_16.jpg'
+		original: '/SigongGallery/img/img_2019_spring_16.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_16.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_17.jpg',
-		thumbnail: '/img/img_2019_spring_17.jpg'
+		original: '/SigongGallery/img/img_2019_spring_17.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_17.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_18.jpg',
-		thumbnail: '/img/img_2019_spring_18.jpg'
+		original: '/SigongGallery/img/img_2019_spring_18.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_18.jpg'
 	},
 	{
-		original: '/img/img_2019_spring_19.jpg',
+		original: '/SigongGallery/img/img_2019_spring_19.jpg',
 		originalClass: 'vertical',
-		thumbnail: '/img/img_2019_spring_19.jpg'
+		thumbnail: '/SigongGallery/img/img_2019_spring_19.jpg'
 	}
 ];
 
