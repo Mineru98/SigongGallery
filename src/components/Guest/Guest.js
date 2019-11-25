@@ -1,14 +1,9 @@
 import React from 'react';
 // import {
-// 	Menu,
-// 	Responsive,
-// 	Sidebar,
-// 	Icon
+// 	Header
 // } from 'semantic-ui-react';
 import Disqus from 'disqus-react';
 import './Guest.css';
-
-let view = null;
 
 class Guest extends React.Component {
 	constructor(props) {
@@ -32,7 +27,7 @@ class Guest extends React.Component {
 	
 	render() {
 		const { width } = this.state;
-		const disqusShortname = 'https-mineru98-github-io'; //found in your Disqus.com dashboard
+		const disqusShortname = 'https-mineru98-github-io-sigonggallery'; //found in your Disqus.com dashboard
 		const disqusConfig = {
 			url: 'https://mineru98.github.io/SigonGallery', //this.props.pageUrl
 			identifier: 'article-id', //this.props.uniqueId
@@ -40,7 +35,7 @@ class Guest extends React.Component {
 		};
 		return(
 			<div style={{ width }} className="guest_container">
-				{view}
+				<div className="guest_header"><span>방명록_ </span><span className="guest_small"> 낙서장</span></div>
 				<Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
 			</div>
 		);

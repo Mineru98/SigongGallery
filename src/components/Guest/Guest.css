@@ -1,3 +1,30 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
 .guest_container {
+	height: 920px;
 	
+}
+
+.guest_header {
+	margin: 100px;
+	font-family: "NanumSquare";
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: left;
+}
+
+.guest_small {
+	font-size: 1.75rem;
+	font-weight: normal;
+}
+
+#disqus_thread {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+	#disqus_thread {
+		margin: 0;
+	}
 }

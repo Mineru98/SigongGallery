@@ -1,7 +1,16 @@
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
 .home_container {
-	height: 920px;
+	height: 2400px;
+}
+
+#home_grid {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#home_card {
+	margin: 0 auto;
 }
 
 @media (min-width: 769px) {
@@ -9,6 +18,18 @@
 		margin: 0 auto;
 		margin-top: 50px;
 		width: 50%;
+	}
+	.center.square {
+		margin: auto;
+		width: 60%;
+	}
+	.center.square.big {
+		margin: auto;
+		width: 90%;
+	}
+	.center.vertical.big {
+		margin: auto;
+		width: 35%;
 	}
 	.center.vertical {
 		margin: auto;

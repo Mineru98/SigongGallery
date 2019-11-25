@@ -1,8 +1,8 @@
- import React from 'react';
-import {
-	Image,
-	Grid,
-} from 'semantic-ui-react';
+import React from 'react';
+// import {
+// 	Image,
+// 	Grid,
+// } from 'semantic-ui-react';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import './Gallery.css';
@@ -12,14 +12,17 @@ import './Gallery.css';
 const _2019_fall_images = [
 	{
 		original: '/SigongGallery/img/img_2019_fall_1.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_1.jpg'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_2.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_2.jpg'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_3.png',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_3.png'
 	},
 	{
@@ -28,46 +31,57 @@ const _2019_fall_images = [
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_5.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_5.jpg'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_6.png',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_6.png'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_7.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_7.jpg'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_8.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_8.jpg'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_9.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_9.jpg'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_10.png',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_10.png'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_11.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_11.jpg'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_12.png',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_12.png'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_13.png',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_13.png'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_14.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_14.jpg'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_15.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_15.jpg'
 	},
 	{
@@ -91,6 +105,7 @@ const _2019_fall_images = [
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_20.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_20.jpg'
 	},
 	{
@@ -109,6 +124,7 @@ const _2019_fall_images = [
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_24.jpg',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_24.jpg'
 	},
 	{
@@ -118,11 +134,12 @@ const _2019_fall_images = [
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_26.png',
-		originalClass: 'vertical',
+		originalClass: 'square',
 		thumbnail: '/SigongGallery/img/img_2019_fall_26.png'
 	},
 	{
 		original: '/SigongGallery/img/img_2019_fall_27.png',
+		originalClass: 'square big',
 		thumbnail: '/SigongGallery/img/img_2019_fall_27.png'
 	},
 	{
@@ -174,8 +191,8 @@ class Gallery2019Fall extends React.Component {
 						showPlayButton={true}
 						showThumbnails={true}
 						showIndex={false}
-						showBullets={true}
-						showFullscreenButton={true}
+						showBullets={false}
+						showFullscreenButton={false}
 						slideDuration={450}
 						slideInterval={5000}
 					/>
