@@ -1,8 +1,10 @@
 import React from 'react';
-import { Menu, Responsive, Sidebar, Icon, Dropdown } from 'semantic-ui-react';
+import { Menu, Responsive, Sidebar, Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import Home from '../Home/Home';
-import Gallery from '../Gallery/Gallery';
+import Gallery2018Fall from '../Gallery/Gallery2018Fall';
+import Gallery2019Spring from '../Gallery/Gallery2019Spring';
+import Gallery2019Fall from '../Gallery/Gallery2019Fall';
 import Goods from '../Goods/Goods';
 import Guest from '../Guest/Guest';
 import Member from '../Member/Member';
@@ -20,15 +22,14 @@ class MobileHeader extends React.Component {
 		this.handleSidebarHide = this.handleSidebarHide.bind(this);
 		this.handleShowClick = this.handleShowClick.bind(this);
 
-		console.log(props.path.pathname);
 		if (props.path.pathname === '/SigongGallery/') {
 			view = <Home />;
-		} else if (props.path.pathname === '/SigongGallery/2018/fall') {
-			view = <Gallery path="/SigongGallery/2018/fall" />;
-		} else if (props.path.pathname === '/SigongGallery/2019/spring') {
-			view = <Gallery path="/SigongGallery/2019/spring" />;
-		} else if (props.path.pathname === '/SigongGallery/2019/fall') {
-			view = <Gallery path="/SigongGallery/2019/fall" />;
+		} else if (props.path.pathname === '/SigongGallery/2018fall') {
+			view = <Gallery2018Fall />;
+		} else if (props.path.pathname === '/SigongGallery/2019spring') {
+			view = <Gallery2019Spring />;
+		} else if (props.path.pathname === '/SigongGallery/2019fall') {
+			view = <Gallery2019Fall />;
 		} else if (props.path.pathname === '/SigongGallery/goods') {
 			view = <Goods />;
 		} else if (props.path.pathname === '/SigongGallery/guest') {
@@ -73,28 +74,30 @@ class MobileHeader extends React.Component {
 									visible={visible}
 									width="thin"
 								>
-									<Link to="/SigongGallery">
+									<Link to="/SigongGallery/">
 										<Menu.Item as="p" onClick={this.handleHideClick}>
 											<Icon name="home" />
 											{'시공 갤러리'}
 										</Menu.Item>
 									</Link>
-									<Menu.Item position="left">
-										<Icon name="home" />
-										<Dropdown floating inline labeled text="전시회">
-											<Dropdown.Menu id="drop" >
-												<Link to="/SigongGallery/2018/fall">
-													<Dropdown.Item id="selector" content="2018 가을 전시회" />
-												</Link>
-												<Link to="/SigongGallery/2019/spring">
-													<Dropdown.Item id="selector" content="2019 봄 전시회" />
-												</Link>
-												<Link to="/SigongGallery/2019/fall">
-													<Dropdown.Item id="selector" content="2019 가을 전시회" />
-												</Link>
-											</Dropdown.Menu>
-										</Dropdown>
-									</Menu.Item>
+									<Link to="/SigongGallery/2018fall">
+										<Menu.Item as="p" onClick={this.handleHideClick}>
+											<Icon name="home" />
+											{'2018 가을 전시회'}
+										</Menu.Item>
+									</Link>
+									<Link to="/SigongGallery/2019spring">
+										<Menu.Item as="p" onClick={this.handleHideClick}>
+											<Icon name="home" />
+											{'2019 봄 전시회'}
+										</Menu.Item>
+									</Link>
+									<Link to="/SigongGallery/2019fall">
+										<Menu.Item as="p" onClick={this.handleHideClick}>
+											<Icon name="home" />
+											{'2019 가을 전시회'}
+										</Menu.Item>
+									</Link>
 									<Link to="/SigongGallery/guest">
 										<Menu.Item as="p" onClick={this.handleHideClick}>
 											<Icon name="home" />

@@ -1,11 +1,8 @@
 import React from 'react';
-// import {
-// 	Menu,
-// 	Responsive,
-// 	Sidebar,
-// 	Icon,
-//  Grid,
-// } from 'semantic-ui-react';
+import {
+	Image,
+	Grid,
+} from 'semantic-ui-react';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import './Gallery.css';
@@ -50,42 +47,43 @@ const _2018_fall_images = [
 		thumbnail: '/SigongGallery/img/img_2019_spring_10.jpg'
 	},
 	{
-		original: '/SigongGallery/img/img_2019_spring_11.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_11.jpg'
+		original: '/SigongGallery/img/img_2019_spring_1.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_1.jpg'
 	},
 	{
-		original: '/SigongGallery/img/img_2019_spring_12.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_12.jpg'
+		original: '/SigongGallery/img/img_2019_spring_2.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_2.jpg'
 	},
 	{
-		original: '/SigongGallery/img/img_2019_spring_14.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_14.jpg'
+		original: '/SigongGallery/img/img_2019_spring_3.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_3.jpg'
 	},
 	{
-		original: '/SigongGallery/img/img_2019_spring_15.jpg',
+		original: '/SigongGallery/img/img_2019_spring_4.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_4.jpg'
+	},
+	{
+		original: '/SigongGallery/img/img_2019_spring_5.JPG',
+		thumbnail: '/SigongGallery/img/img_2019_spring_5.JPG'
+	},
+	{
+		original: '/SigongGallery/img/img_2019_spring_6.JPG',
+		thumbnail: '/SigongGallery/img/img_2019_spring_6.JPG'
+	},
+	{
+		original: '/SigongGallery/img/img_2019_spring_7.jpg',
+		thumbnail: '/SigongGallery/img/img_2019_spring_7.jpg'
+	},
+	{
+		original: '/SigongGallery/img/img_2019_spring_8.jpeg',
 		originalClass: 'vertical',
-		thumbnail: '/SigongGallery/img/img_2019_spring_15.jpg'
+		thumbnail: '/SigongGallery/img/img_2019_spring_8.jpeg'
 	},
 	{
-		original: '/SigongGallery/img/img_2019_spring_16.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_16.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_17.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_17.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_18.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_18.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_19.jpg',
+		original: '/SigongGallery/img/img_2019_spring_10.jpg',
 		originalClass: 'vertical',
-		thumbnail: '/SigongGallery/img/img_2019_spring_19.jpg'
-	}
-];
-
-const _2019_spring_images = [
+		thumbnail: '/SigongGallery/img/img_2019_spring_10.jpg'
+	},
 	{
 		original: '/SigongGallery/img/img_2019_spring_1.jpg',
 		thumbnail: '/SigongGallery/img/img_2019_spring_1.jpg'
@@ -125,43 +123,6 @@ const _2019_spring_images = [
 		thumbnail: '/SigongGallery/img/img_2019_spring_10.jpg'
 	},
 	{
-		original: '/SigongGallery/img/img_2019_spring_11.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_11.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_12.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_12.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_14.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_14.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_15.jpg',
-		originalClass: 'vertical',
-		thumbnail: '/SigongGallery/img/img_2019_spring_15.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_16.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_16.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_17.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_17.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_18.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_18.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_19.jpg',
-		originalClass: 'vertical',
-		thumbnail: '/SigongGallery/img/img_2019_spring_19.jpg'
-	}
-];
-
-const _2019_fall_images = [
-	{
 		original: '/SigongGallery/img/img_2019_spring_1.jpg',
 		thumbnail: '/SigongGallery/img/img_2019_spring_1.jpg'
 	},
@@ -190,67 +151,30 @@ const _2019_fall_images = [
 		thumbnail: '/SigongGallery/img/img_2019_spring_7.jpg'
 	},
 	{
-		original: '/SigongGallery/img/img_2019_spring_8.jpeg',
+		original: '/SigongGallery/img/img_2019_spring_38.jpeg',
 		originalClass: 'vertical',
-		thumbnail: '/SigongGallery/img/img_2019_spring_8.jpeg'
+		thumbnail: '/SigongGallery/img/img_2019_spring_38.jpeg'
 	},
 	{
-		original: '/SigongGallery/img/img_2019_spring_10.jpg',
+		original: '/SigongGallery/img/img_2019_spring_39.jpeg',
 		originalClass: 'vertical',
-		thumbnail: '/SigongGallery/img/img_2019_spring_10.jpg'
+		thumbnail: '/SigongGallery/img/img_2019_spring_39.jpeg'
 	},
 	{
-		original: '/SigongGallery/img/img_2019_spring_11.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_11.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_12.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_12.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_14.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_14.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_15.jpg',
+		original: '/SigongGallery/img/img_2019_spring_40.jpg',
 		originalClass: 'vertical',
-		thumbnail: '/SigongGallery/img/img_2019_spring_15.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_16.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_16.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_17.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_17.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_18.jpg',
-		thumbnail: '/SigongGallery/img/img_2019_spring_18.jpg'
-	},
-	{
-		original: '/SigongGallery/img/img_2019_spring_19.jpg',
-		originalClass: 'vertical',
-		thumbnail: '/SigongGallery/img/img_2019_spring_19.jpg'
+		thumbnail: '/SigongGallery/img/img_2019_spring_40.jpg'
 	}
 ];
 
-let view = null;
-
-class Gallery extends React.Component {
+class Gallery2018Fall extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { width: 0 };
 		this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-		if(props.path.pathname === "/SigongGallery/2018/fall") {
-			view = (<div></div>);
-		} else if (props.path.pathname === "/SigongGallery/2019/spring") {
-			view = (<div></div>);
-		} else if (props.path.pathname === "/SigongGallery/2019/fall") {
-			view = (<div></div>);
-		}
+		this.handleOnClick = this.handleOnClick.bind(this);
 	}
-	
+
 	componentDidMount() {
 		this.updateWindowDimensions();
 		window.addEventListener('resize', this.updateWindowDimensions);
@@ -264,14 +188,31 @@ class Gallery extends React.Component {
 		this.setState({ width: window.innerWidth, height: window.innerHeight });
 	}
 	
+	handleOnClick(e) {
+		console.log(e.target.src);
+	}
+
 	render() {
 		const { width } = this.state;
-		return(
-			<div style={{ width }} className="gallery_container" >
-				{view}
+		return (
+			<div style={{ width }} className="gallery_container">
+				<div id="box">
+					<ImageGallery
+						items={_2018_fall_images}
+						showNav={true}
+						autoPlay
+						showPlayButton={true}
+						showThumbnails={true}
+						showIndex={false}
+						showBullets={true}
+						showFullscreenButton={true}
+						slideDuration={450}
+						slideInterval={5000}
+					/>
+				</div>
 			</div>
 		);
 	}
 }
 
-export default Gallery;
+export default Gallery2018Fall;

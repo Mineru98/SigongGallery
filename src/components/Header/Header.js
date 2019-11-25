@@ -28,13 +28,13 @@ class Header extends React.Component {
 								<Menu.Item header id="header" position="right">
 									<Dropdown floating labeled text="전시회">
 										<Dropdown.Menu>
-											<Link to="/SigongGallery/2018/fall">
+											<Link to="/SigongGallery/2018fall">
 												<Dropdown.Item id="selector" content="2018 가을 전시회" />
 											</Link>
-											<Link to="/SigongGallery/2019/spring">
+											<Link to="/SigongGallery/2019spring">
 												<Dropdown.Item id="selector" content="2019 봄 전시회" />
 											</Link>
-											<Link to="/SigongGallery/2019/fall">
+											<Link to="/SigongGallery/2019fall">
 												<Dropdown.Item id="selector" content="2019 가을 전시회" />
 											</Link>
 										</Dropdown.Menu>

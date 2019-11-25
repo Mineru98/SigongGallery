@@ -4,17 +4,29 @@
 	height: 920px;
 }
 
-#box {
-	margin: 0 auto;
-	width: 50%;
+@media (min-width: 769px) {
+	#box {
+		margin: 0 auto;
+		margin-top: 50px;
+		width: 50%;
+	}
+	.center.vertical {
+		margin: auto;
+		width: 45%;
+	}
 }
 
-.center.vertical {
-  margin: auto;
-	width: 45%;
+@media (max-width: 768px) {
+	#box {
+		margin-top: 75px;
+		width: 100%;
+	}
+	.center.vertical {
+		width: 100%;
+	}
 }
 
 .image-gallery-slide.center {
-	border:2px solid #CDCDCD;
+	border:2px solid #FFFFFF;
 	padding: 2px;
 }
