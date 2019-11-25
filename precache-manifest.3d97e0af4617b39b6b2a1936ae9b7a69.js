@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6000f46151bf30ba93c8134e0b6ee42",
+    "revision": "bcc9347d440509474cdfd5316d27d8b2",
     "url": "/SigongGallery/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SigongGallery/static/css/2.5dc59399.chunk.css"
   },
   {
-    "revision": "a32b0cbe7fa42fe365f0",
+    "revision": "8cec7fbfaad6d02b776e",
     "url": "/SigongGallery/static/css/main.b06c502d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SigongGallery/static/js/2.273a9076.chunk.js"
   },
   {
-    "revision": "a32b0cbe7fa42fe365f0",
-    "url": "/SigongGallery/static/js/main.7c34581b.chunk.js"
+    "revision": "8cec7fbfaad6d02b776e",
+    "url": "/SigongGallery/static/js/main.38a380d9.chunk.js"
   },
   {
     "revision": "e8c44e6309b2ffe616ea",
