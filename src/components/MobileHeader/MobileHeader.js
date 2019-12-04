@@ -100,19 +100,19 @@ class MobileHeader extends React.Component {
 									</Link>
 									<Link to="/SigongGallery/guest">
 										<Menu.Item as="p" onClick={this.handleHideClick}>
-											<Icon name="home" />
+											<Icon name="book" />
 											{'방명록'}
 										</Menu.Item>
 									</Link>
 									<Link to="/SigongGallery/goods">
 										<Menu.Item as="p" onClick={this.handleHideClick}>
-											<Icon name="home" />
+											<Icon name="vcard" />
 											{'Goods엽서'}
 										</Menu.Item>
 									</Link>
 									<Link to="/SigongGallery/member">
 										<Menu.Item as="p" onClick={this.handleHideClick}>
-											<Icon name="home" />
+											<Icon name="users" />
 											{'올해 집부 명단'}
 										</Menu.Item>
 									</Link>
